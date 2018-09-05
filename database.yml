@@ -1,0 +1,14 @@
+production:
+  dialect: mysql
+  database: acm
+  user: root
+  password: {{ env "DATABASE_PASSWORD" }}
+  host: "35.193.37.194"
+  port: "3306"
+
+development:
+  dialect: mysql
+  database: courier
+  user: root
+  password: pass
+  host: 127.0.0.1
